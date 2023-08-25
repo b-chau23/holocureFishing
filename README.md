@@ -1,2 +1,2 @@
 # holocureFishing
-Script for automatic fishing in Holocure
+Automatic fishing in Holocure

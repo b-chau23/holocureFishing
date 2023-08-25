@@ -5,6 +5,7 @@ from mss import mss
 
 
 def fish(search):
+    print("Start")
     spot = {'left': search[0], 'top': search[1], 'width': search[2], 'height': search[3]}
     with mss() as sct:
         while True:
@@ -24,7 +25,6 @@ def set_up():
             x, y = auto.locateCenterOnScreen("frame.png", confidence=0.7)
             search = (x - 20, y, 10, 1)
         except TypeError:
-            print("f")
             continue
     fish(search)
 

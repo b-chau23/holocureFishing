@@ -1,7 +1,7 @@
 # holocureFishing
 Automatic fishing in Holocure. Simply execute and start fishing!
 
-Uses MSS to take small screenshots (like 1x10 pixels small) of the fishing zone and reads those pixels to search for certain colours. Press certain keys depending on which colour was detected
+Uses MSS to take small screenshots (like 1x10 pixels small) of the fishing zone and reads those pixels to search for certain colours. Press certain keys depending on which colour was detected.
 
 
 # Usage

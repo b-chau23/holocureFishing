@@ -1,6 +1,8 @@
 # holocureFishing
 Automatic fishing in Holocure. Simply execute and start fishing!
 
+Uses MSS to take small screenshots (like 1x10 pixels small) of the fishing zone and reads those pixels to search for certain colours. Press certain keys depending on which colour was detected
+
 
 # Usage
 1. Download the ZIP file or clone the repository
@@ -20,7 +22,7 @@ Unfortunately does not work when minimised or in background.
 Currently works with [Python 3.9 or later](https://www.python.org/downloads/).
 
 pip
-- [mss: 9.0.1 or later](https://pypi.org/project/mss/)
+- [MSS: 9.0.1 or later](https://pypi.org/project/mss/)
 - [PyAutoGui: 0.9.54 or later](https://pypi.org/project/PyAutoGUI/)
 
 Or run: `pip install -r requirements.txt` 

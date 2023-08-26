@@ -16,6 +16,7 @@ the first time the fishing minigame is entered. However, you can still move arou
 Unfortunately does not work when minimised or in background.
 
 # Requirements 
+## System
 Currently works with [Python 3.9 or later](https://www.python.org/downloads/).
 
 pip
@@ -23,3 +24,16 @@ pip
 - [PyAutoGui: 0.9.54 or later](https://pypi.org/project/PyAutoGUI/)
 
 Or run: `pip install -r requirements.txt` 
+
+## Holocure
+- 1280x720 Resolution on windowed mode
+- Not minimised or in background
+
+Key Bindings:
+| Key | Action |
+|:---:|:------:|
+| w   |   up   |
+| a   |  left  |
+| s   |  down  |
+| d   |  right |
+| space   | confirm |

@@ -12,7 +12,7 @@ Uses MSS to take small screenshots (like 1x10 pixels small) of the fishing zone 
 To quit, close the Python window that opened when main.py was executed.
 
 ## Usage Notes
-Only works on 1280x720 resolution and windowed (not fullscreen). Any other game settings are fine. Do not move the Holocure window after 
+Only works on 1280x720 resolution and windowed (not fullscreen). Any other game settings are fine. __Do not__ move the Holocure window after 
 the first time the fishing minigame is entered. However, you can still move around in-game and come back to fish without needing to restart the script.  
 
 Unfortunately does not work when minimised or in background.
